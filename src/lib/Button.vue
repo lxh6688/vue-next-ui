@@ -5,7 +5,7 @@
   </button>
 </template>
 <script lang="ts">
-import { computed } from "@vue/reactivity";
+import { computed } from "vue";
 export default {
   props: {
     theme: {
@@ -13,7 +13,7 @@ export default {
       default: "button",
     },
     size: {
-      type: Boolean,
+      type: String,
       default: "normal",
     },
     level: {
