@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <Topnav class="nav" />
+    <Topnav toggleMenuButtonVisible class="nav" />
     <div class="topnav">
       <div class="logo"></div>
       <div class="menu"></div>
